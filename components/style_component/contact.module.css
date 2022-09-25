@@ -1,0 +1,26 @@
+.container {
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+    margin:  auto;
+    padding: 2.2em;
+  }
+  
+  .container * {
+    width: 100%;
+  }
+  
+  .container > * {
+    margin-bottom: 4rem;
+  }
+  .link_book  {
+    max-width: 300px;
+    font-weight: 400;
+    padding: .5rem;
+    color: var(--background);
+    font-weight: 900;
+    background-color: var(--primary_text)
+
+  }

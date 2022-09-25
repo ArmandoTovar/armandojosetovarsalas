@@ -1,0 +1,48 @@
+{
+    "data":{
+
+        "dark":{
+            
+            "id": "T_001",
+            "name": "Theme Dark",
+                "textColor":
+                {
+                    "primary":"#01c4e7",
+                    "secundary":"#D9D9D9",
+                    "other":"#fff",
+                    "parag":"#A8B2D1"
+                },
+                "backgroundColor":
+                {
+                    "primary":"#020C1B",
+                    "secundary":"#233554",
+                    "hover":"#112240"
+                },
+                "font":"Poppins"
+            
+                }, 
+        "light":{
+            
+                        "id": "T_002",
+                        "name": "Theme light",
+                            "textColor":
+                            {
+                                "primary":"#000000",
+                                "secundary":"#808080",
+                                "other":"#000",
+                                "parag":"#C0C0C0"
+                            },
+                            "backgroundColor":
+                            {
+                                "primary":"#ffffff",
+                                "secundary":"#fcfcfc",
+                                "hover":"#fcfcfc"
+                            },
+                            "font":"Poppins"
+                        
+                            }
+        }
+        
+       
+        
+}

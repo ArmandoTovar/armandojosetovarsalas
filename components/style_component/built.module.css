@@ -1,0 +1,67 @@
+.built{
+   max-width: 800px;
+    margin: 20px auto;
+    padding: 2.2em;
+    justify-content: center;
+}
+
+.card{
+background-color: var(--backgroun-card);
+
+box-shadow: 2px 2px 2px 1px var(--other_text);
+padding: 20px  10px 20px 10px;
+display: flex;
+
+max-width: 800px;
+margin: 20px 0px;
+}
+.card:nth-child(odd){
+    border-top-left-radius: 30px;
+    border-bottom-right-radius:30px ;
+    }
+
+.card:nth-child(even){
+border-top-right-radius: 30px;
+border-bottom-left-radius:30px ;
+}
+.card__image{
+    position: relative;
+    margin:20px 0;
+    width:50%;
+   max-height: 200px;
+   
+   
+     
+}
+.card__content{
+    margin-left: 20px;
+    width: 70%;
+}
+.card__content p{
+    font-size: 1rem;
+}
+.links_card a{
+    color: var(--primary_text);
+    
+}
+.links_card a{
+    padding: 10px;
+    font-size: 1em;
+}
+@media only screen and (max-width: 600px) {
+    .card {
+      display: block;
+     
+    }
+  
+    .card__image {
+        height: 247px;
+        width: 100%;
+    
+    }
+    .card__content{
+        width: 100%;
+        margin-left: 0px;
+
+    }
+}

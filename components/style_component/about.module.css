@@ -1,0 +1,67 @@
+.about {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2.2em;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  width: 100%;
+  gap: 20px;
+}
+.separator {
+  width: 40%;
+  height: 1px;
+  border: solid 1px var(--primary_text);
+  
+ 
+}
+.section{
+display: block;
+max-width: 60%;
+
+}
+
+
+.skill {
+  max-width: 200px;
+  column-count: 2;
+  column-gap: 20px;
+}
+.skill >span{
+  color: var(--primary_text);
+}
+.tec {
+  display: block;
+}
+.abouts {
+  
+  flex: 1 1 300px;
+  width: 100%;
+}
+.img {
+  max-width: 300px;
+  max-height: 250px;
+  position: relative;
+  margin-top: 20px;
+ 
+}
+.img img {
+  border-radius: 10px;
+}
+.img::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border: solid 2px var(--primary_text);
+  border-radius: 10px;
+  left: 20px;
+  top: 20px;
+}

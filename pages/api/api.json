@@ -1,0 +1,48 @@
+{
+    
+
+
+
+    "datos": [
+       
+        {
+            "name": "Corpoelec",
+            "cargo": "Systems Engineer",
+            "fecha": "01/2019 - 03/2020",
+            "act": ["Configuration"]
+      
+          },
+          {
+           
+            "name": "Turagual C.A",
+            "cargo": "Electrical Engineer",
+            "fecha": "08/2019 - 08/2019",
+            "act": ["Functional testing","Installation of monitoring"]
+      
+          },
+          {
+          
+            "name": "Cateca C.A",
+            "cargo": "Electrical Engineer",
+            "fecha": "03/2020 - 01/2021",
+            "act": ["Installation and configuration","Detailed engineering","Restructuring of protection"]
+      
+          },
+          {
+            
+            "name": "Coinsertelca",
+            "cargo": "Systems Engineer",
+            "fecha": "03/2021 - 01/2022",
+            "act":[ "Restoration and restructuring"]
+          },
+          {
+     
+            "name": "Corpoelec",
+            "cargo": "Systems Engineer",
+            "fecha": "01/2021 - 01/2022",
+            "act": ["Coordination of work"]
+      
+          }
+    ]
+}
+
